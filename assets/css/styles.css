@@ -1,6 +1,6 @@
 body {
   font-family: 'Lato', arial, sans-serif;
-  background: #D7DBDD;
+
   backdrop-filter: blur(5px);
   color: #323441;
 
@@ -113,8 +113,9 @@ a.dotted-link:hover {
 /* ======= Header ======= */
 .header {
   padding: 30px 0;
-  background: #26203c;
-  border-top: 10px solid #778492;
+
+
+ height:483px;
 }
 
 .header .btn {

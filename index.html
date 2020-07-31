@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title> PORTFOLIO </title>
+    <title> GROUP ORANGE </title>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio GroupOrange">
     <meta name="author" content="Buddhabhushan Nagrale">    
-    <link rel="shortcut icon" href="DS.ico">  
+    <link rel="shortcut icon" href="symbol.png">  
     
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
@@ -19,13 +19,14 @@
     <!-- Global CSS -->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
     
-    <!-- github calendar css -->
-    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css">
+ 
 	
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
     
 	<style>
+
+
 	
 
 * {box-sizing: border-box}
@@ -126,80 +127,161 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
 }
 
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+
+  background-color: #ffffff;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: transparent;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: transparent;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+   border-bottom: 1px solid #fdb242;
+  
+   height: 50px
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+table, th, td {
+ 
+  border-collapse: collapse;
+  padding: 3px 3px 3px 3px;
+  border-spacing: 6px;
+}
+
+
+
+
 </style>
 </head> 
 
-<body>
+<body style="background-color:#F4F6F7 ;" >
+
+<nav class="navbar navbar-expand-lg navbar-light  justify-content-between " style=" background-color:white; height: 50px; padding: 7px 5px 10px 15px; box-shadow: -3px 3px 5px #f8c471 ">
+  <a class="navbar-brand" href="#"> <img src="assets/images/symbol.png" class="img-fluid" style="width:35px ; height: 35px; padding: 0px 0px 0px 0px;"> </img> </a>
 
 
-<nav class="navbar" style = "background-color:#ffcb6b">
+ 
+    <form class="form-inline" >
+    <ul class="navbar-nav">
+      <li class="nav-item ">
+        <a class="nav-link" href="#" > <font color="#7f8c8d " style="font-size:14px"> About Us  </font><span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"> <font color=" #7f8c8d " style="font-size:14px"> Our Products </font> </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"> <font color=" #7f8c8d " style="font-size:14px"> Contact us </font> </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#"> &nbsp </a>
+      </li>
+    </ul>
+	</form>
 
+  
+
+  
 </nav>
 
 
+    <header class="header" style = "padding-top: 10px; background-image: url(assets/images/22.svg);  background-repeat: no-repeat; height: 550px ;background-color:#F4F6F7; " >
+	   <div class="container sections-wrapper">
+        <div class="row">
+            <div class="primary col-lg-8 col-12" style="position: absolute; bottom: 140px;left: 40px; font-size: 14px ;width: 750px; border-radius: 100px">
+                <section class="about section" >
+                    <div class="section-inner" style=" border-radius: 15px ;background-color:white;">
+					
+					
+<div class="tab">
+  <a href="#" class="btn4" style="font-size:18px"> <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen" >  <font color="#7f8c8d " > About Us   </font> </button>  </a>
+  <a href="#" class="btn4"style="font-size:18px"> <button class="tablinks" onclick="openCity(event, 'Paris')"> <font color="#7f8c8d " > Basic Information </font> </button>  </a>
+  <a href="#" class="btn4"style="font-size:18px"> <button class="tablinks" onclick="openCity(event, 'Tokyo')"> <font color="#7f8c8d "> Contact Us </font> </button>  </a>
+</div>
+
+<div id="London" class="tabcontent" style="height:235px ">
+  <p align="justify">&nbsp &nbsp &nbsp &nbsp &nbsp  <b> <font style="font-size:16px " >   GroupOrange  </font> </b> intend to cater to entire society for women hygiene Issues.  The women Hygiene and sanitation is one of the prime object of our Nation  with a Government of India, National Commission for Women’s and Government Of  Maharashtra under “ Swatch Bharat Abhiyaan ”.
+      The Objective of these proposal  is to contribute to promote the safe & hygienic Sanitary Practices among  women’s/Girls at the place they spend their maximum time in Schools , College,   Offices, Market, Hostels, Bus Stops, Railway Stations and Industries too.
+ Orange Instruments & Engineering, Nagpur is the Organization to provide round the Clock a good quality “Sanitary Napkin Automated /Manual Vending Machine” and “Sanitary Napkin Burning Machine”  and also having Sanitary Pads of different sizes. </p>
+</div>
+
+<div id="Paris" class="tabcontent" style="height:235px">
 
 
-<div class = "jumbotron"  style = "background-color:#F2F3F4 ;">
-	    <div class = "container">
-           <center> <img src="assets/images/logo.png" class="img-fluid" style="width:200px ; height: 100px"> </center>
-			<br> <br>		
+<table>
 
-			<div class="container sections-wrapper">
-					<div class="row">
-								<div class="primary col-lg-8 col-12">
-									
-									<section class="about section">
-											<div class="section-inner">
-												<h2 class="heading">About Us</h2>
-															<div class="content">
-																	<p align="justify">&nbsp &nbsp &nbsp &nbsp &nbsp   <b> <font style="font-size:18px" >   GroupOrange  </font> </b> intend to cater to entire society for women hygiene Issues. The women Hygiene and sanitation is one of the prime object of our Nation with a Government of India, National Commission for Women’s and Government Of Maharashtra under “ Swatch Bharat Abhiyaan ”.
-      The Objective of these proposal is to contribute to promote the safe & hygienic Sanitary Practices among women’s/Girls at the place they spend their maximum time in Schools ,College,Offices, Market, Hostels, Bus Stops, Railway Stations and Industries too.
-      Orange Instruments & Engineering, Nagpur is the Organization to provide round the Clock a good quality “Sanitary Napkin Automated /Manual Vending Machine” and “Sanitary Napkin Burning Machine”  and also having Sanitary Pads of different sizes. </p>
+  <tr>
+    <td> <i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span></td>
+    <td>  &nbsp &nbsp &nbsp Plot No. 112-A, Gharkul Society, Indrayani  Nagar,  Meshram Layout </td>
+  </tr>
+  
+  <tr>
+    <td></td>
+    <td>  &nbsp &nbsp &nbsp Besides Kabira Convent School, Beltarodi Road, Nagpur – 441108.</td>
+  </tr>
+  
+  <tr>
+    <td><i class="fa fa-envelope"></i><span class="sr-only">Email:</span> </td>
+    <td><a href="hygienecare@grouporange.in "> &nbsp &nbsp &nbsp hygienecare@grouporange.in  </a></li></td>
+  </tr>
+  
+  <tr>
+    <td><i class="fa fa-envelope"></i><span class="sr-only">Email:</span> </td>
+    <td><a href="mailto:support@grouporange.in ">  &nbsp &nbsp &nbsp support@grouporange.in  </a></li></td>
+  </tr>
+</table>
 
+</body>
+</html>
 
-								                            </div><!--//content-->
-                                           </div><!--//section-inner-->                 
-                                     </section><!--//section-->
-    
+                                
+                              
+                          
+</div>
 
+<div id="Tokyo" class="tabcontent" style="height:235px">
+
+</div>
+					
+               </div>                      
+                </section><!--//section--> 
 				
-         
-            </div><!--//primary-->
-			
-			
-            <div class="secondary col-lg-4 col-12" >
-			
-                 <aside class="info aside section" >
-				  
-                    <div class="section-inner">
-                        <h2 class="heading sr-only">Basic Information</h2>
-                        <div class="content">
-						<br> <br> 
-                            <ul class="list-unstyled">
-                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Plot No. 112-A, Gharkul Society, Indrayani  Nagar,  Meshram Layout, Besides Kabira Convent School, Beltarodi Road, Nagpur – 441108.</li>
-                                <li><i class="fa fa-envelope"></i><span class="sr-only">Email:</span><a href="hygienecare@grouporange.in ">hygienecare@grouporange.in  </a></li>
-								 <li><i class="fa fa-envelope"></i><span class="sr-only">Email:</span><a href="mailto:support@grouporange.in ">support@grouporange.in  </a></li>
-                            </ul>
-							
-							<br> <br> <br>
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </aside><!--//aside-->
+		     </div>
+			  </div>
+			      
 
-             
+    </header><!--//header-->
+	
+<br>	
+<div class = "jumbotron"  style = "background-color:#F4F6F7 ;"> 
 
- </div>
-
-</div>
-
-</div>
-
-
-							<div class = "container-fluid">
-							
-							<div class="row">
-        <div class="col-xs-6" style="width:60%">
-              <section class="latest section">
+<div class="row">
+                   <div class="col-xs-6 col-sm-6 col-md-6" >
+                               <section class="latest section">
                                                  <div class="section-inner">
                                                         <center>  <h1><font style="size:30px">OUR PRODUCTS </font></h1> </center>
                                                                 <div class="content">    
@@ -240,14 +322,14 @@ img {vertical-align: middle;}
 
                            
                             
-																</div><!--//content-->  
-                    </div><!--//section-inner-->                
+													           </div><!--//content-->  
+                                                   </div><!--//section-inner-->                
                 </section><!--//section-->
 		
 		</div>
         
 		
-		<div class="col-xs-6" style="width:40%;">
+		<div class="col-xs-6 col-sm-6 col-md-6">
             <aside class="education aside section">
                     <div class="section-inner" style="height:828px ">
 					<br> <br> <br> <br> <br> <br> <br> <br>
@@ -278,11 +360,32 @@ img {vertical-align: middle;}
                                  
 				</div>
 
-</div>
+
 
 </div>
+
+
 
 <script>
+
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -309,8 +412,10 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+
+
 </script>
-   
     <!-- Javascript -->          
     <script type="text/javascript" src="assets/plugins/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
